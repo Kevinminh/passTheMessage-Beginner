@@ -1,0 +1,70 @@
+body {
+  background: #a1c4fd;
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  margin: 0;
+}
+
+.container {
+  background: #fff;
+  border-radius: 5px;
+  margin-top: 40%;
+  width: 1000px;
+}
+
+.grid {
+  display: grid;
+}
+
+.title {
+  text-align: center;
+  font-size: 45px;
+}
+
+.input {
+  border-radius: 4px;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
+  border: 2px solid #a1c4fd;
+}
+
+.input[type="text"] {
+  padding: 0.5rem;
+  border: 3px solid #88d5e9;
+}
+
+.input[type="text"]:focus {
+  box-shadow: 0 0 10px #88d5e9;
+}
+
+.sendBtn {
+  border: 2px solid #a1c4fd;
+  background: #6a9cec;
+  margin: auto;
+  margin-top: 25px;
+  outline: none;
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sendBtn:hover {
+  background: #3b6ec2;
+}
+
+.msg {
+  text-align: center;
+  margin-top: 5%;
+}
+
+#messageOut {
+  margin: 0.5rem 0;
+  color: #6a9cec;
+}
